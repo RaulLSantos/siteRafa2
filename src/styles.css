@@ -47,7 +47,7 @@
   --foreground: oklch(0.22 0.04 20);
 
   /* Wine accents */
-  --wine: oklch(0.34 0.10 18);
+  --wine: oklch(0.34 0.1 18);
   --wine-deep: oklch(0.26 0.09 18);
 
   /* Discreet gold */
@@ -59,7 +59,7 @@
   --popover: oklch(0.99 0.003 80);
   --popover-foreground: oklch(0.22 0.04 20);
 
-  --primary: oklch(0.34 0.10 18);
+  --primary: oklch(0.34 0.1 18);
   --primary-foreground: oklch(0.985 0.004 80);
 
   --secondary: oklch(0.94 0.01 75);
@@ -71,16 +71,16 @@
   --accent: oklch(0.74 0.08 80);
   --accent-foreground: oklch(0.22 0.04 20);
 
-  --destructive: oklch(0.55 0.20 27);
+  --destructive: oklch(0.55 0.2 27);
   --destructive-foreground: oklch(0.985 0.004 80);
 
   --border: oklch(0.88 0.015 60);
   --input: oklch(0.88 0.015 60);
   --ring: oklch(0.74 0.08 80);
 
-  --shadow-elegant: 0 12px 40px -16px oklch(0.34 0.10 18 / 0.18);
-  --shadow-soft: 0 4px 18px -8px oklch(0.34 0.10 18 / 0.12);
-  --gradient-wine: linear-gradient(135deg, oklch(0.26 0.09 18), oklch(0.34 0.10 18));
+  --shadow-elegant: 0 12px 40px -16px oklch(0.34 0.1 18 / 0.18);
+  --shadow-soft: 0 4px 18px -8px oklch(0.34 0.1 18 / 0.12);
+  --gradient-wine: linear-gradient(135deg, oklch(0.26 0.09 18), oklch(0.34 0.1 18));
   --gradient-cream: linear-gradient(180deg, oklch(0.985 0.004 80), oklch(0.965 0.012 75));
 }
 
@@ -101,7 +101,10 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-family: var(--font-serif);
     font-weight: 500;
     letter-spacing: -0.01em;
@@ -109,24 +112,54 @@
 }
 
 @layer utilities {
-  .font-serif { font-family: var(--font-serif); }
-  .font-sans { font-family: var(--font-sans); }
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
 
-  .text-wine { color: var(--wine); }
-  .text-wine-deep { color: var(--wine-deep); }
-  .text-gold { color: var(--gold); }
-  .bg-wine { background-color: var(--wine); }
-  .bg-wine-deep { background-color: var(--wine-deep); }
-  .bg-cream { background-color: var(--cream); }
-  .bg-gold { background-color: var(--gold); }
-  .border-gold { border-color: var(--gold); }
-  .border-wine { border-color: var(--wine); }
+  .text-wine {
+    color: var(--wine);
+  }
+  .text-wine-deep {
+    color: var(--wine-deep);
+  }
+  .text-gold {
+    color: var(--gold);
+  }
+  .bg-wine {
+    background-color: var(--wine);
+  }
+  .bg-wine-deep {
+    background-color: var(--wine-deep);
+  }
+  .bg-cream {
+    background-color: var(--cream);
+  }
+  .bg-gold {
+    background-color: var(--gold);
+  }
+  .border-gold {
+    border-color: var(--gold);
+  }
+  .border-wine {
+    border-color: var(--wine);
+  }
 
-  .shadow-elegant { box-shadow: var(--shadow-elegant); }
-  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
 
-  .gradient-wine { background-image: var(--gradient-wine); }
-  .gradient-cream { background-image: var(--gradient-cream); }
+  .gradient-wine {
+    background-image: var(--gradient-wine);
+  }
+  .gradient-cream {
+    background-image: var(--gradient-cream);
+  }
 
   .glass {
     background: oklch(1 0 0 / 0.55);
@@ -150,19 +183,35 @@
   .reveal {
     opacity: 0;
     transform: translateY(24px);
-    transition: opacity 0.9s ease, transform 0.9s ease;
+    transition:
+      opacity 0.9s ease,
+      transform 0.9s ease;
   }
   .reveal.is-visible {
     opacity: 1;
     transform: none;
   }
-  .reveal-delay-1 { transition-delay: 0.08s; }
-  .reveal-delay-2 { transition-delay: 0.16s; }
-  .reveal-delay-3 { transition-delay: 0.24s; }
-  .reveal-delay-4 { transition-delay: 0.32s; }
+  .reveal-delay-1 {
+    transition-delay: 0.08s;
+  }
+  .reveal-delay-2 {
+    transition-delay: 0.16s;
+  }
+  .reveal-delay-3 {
+    transition-delay: 0.24s;
+  }
+  .reveal-delay-4 {
+    transition-delay: 0.32s;
+  }
 
   @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    .reveal { opacity: 1; transform: none; transition: none; }
+    html {
+      scroll-behavior: auto;
+    }
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
   }
 }

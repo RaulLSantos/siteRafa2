@@ -8,25 +8,21 @@ export function LocationOnline() {
         <div className="lg:col-span-6 reveal">
           <div className="flex items-center gap-3 mb-5">
             <span className="h-px w-8 bg-gold" />
-            <span className="text-[11px] uppercase tracking-[0.3em] text-wine/70">
-              Atendimento
-            </span>
+            <span className="text-[11px] uppercase tracking-[0.3em] text-wine/70">Atendimento</span>
           </div>
           <h2 className="font-serif text-3xl md:text-5xl text-wine-deep leading-tight">
-            Atuação em Cascavel/PR <br />
-            e <span className="italic">atendimento online</span>
+            Atuação em Cascavel/PR <br />e <span className="italic">atendimento online</span>
           </h2>
           <div className="hairline-gold my-8 max-w-xs" />
           <p className="text-foreground/75 leading-relaxed">
-            Com atuação em Cascavel/PR e atendimento online para empresas em
-            todo o Brasil, a advocacia é conduzida com organização, clareza na
-            comunicação e análise individualizada de cada demanda.
+            Com atuação em Cascavel/PR e atendimento online para empresas em todo o Brasil, a
+            advocacia é conduzida com organização, clareza na comunicação e análise individualizada
+            de cada demanda.
           </p>
           <p className="mt-5 text-foreground/75 leading-relaxed">
-            A estrutura de atendimento permite suporte jurídico a empresas
-            locais e também a negócios localizados em outras regiões, sempre
-            com foco em responsabilidade técnica, segurança e discrição
-            profissional.
+            A estrutura de atendimento permite suporte jurídico a empresas locais e também a
+            negócios localizados em outras regiões, sempre com foco em responsabilidade técnica,
+            segurança e discrição profissional.
           </p>
         </div>
 

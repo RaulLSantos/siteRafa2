@@ -1,17 +1,22 @@
 import { SITE } from "@/lib/site";
-import {
-  ArrowUpRight,
-  Mail,
-  Phone,
-  Instagram,
-  MapPin,
-  ExternalLink,
-} from "lucide-react";
+import { ArrowUpRight, Mail, Phone, Instagram, MapPin, ExternalLink } from "lucide-react";
 
 const items = [
   { icon: Mail, label: "E-mail", value: SITE.email, href: `mailto:${SITE.email}` },
-  { icon: Phone, label: "Telefone/WhatsApp", value: SITE.phone, href: SITE.whatsapp, external: true },
-  { icon: Instagram, label: "Instagram", value: SITE.instagram, href: SITE.instagramUrl, external: true },
+  {
+    icon: Phone,
+    label: "Telefone/WhatsApp",
+    value: SITE.phone,
+    href: SITE.whatsapp,
+    external: true,
+  },
+  {
+    icon: Instagram,
+    label: "Instagram",
+    value: SITE.instagram,
+    href: SITE.instagramUrl,
+    external: true,
+  },
   { icon: MapPin, label: "Endereço", value: SITE.address, href: SITE.maps, external: true },
 ];
 
@@ -22,14 +27,10 @@ export function Contact() {
         <div className="text-center mb-14 reveal">
           <div className="inline-flex items-center gap-3 mb-5">
             <span className="h-px w-8 bg-gold" />
-            <span className="text-[11px] uppercase tracking-[0.3em] text-wine/70">
-              Contato
-            </span>
+            <span className="text-[11px] uppercase tracking-[0.3em] text-wine/70">Contato</span>
             <span className="h-px w-8 bg-gold" />
           </div>
-          <h2 className="font-serif text-3xl md:text-5xl text-wine-deep leading-tight">
-            Contato
-          </h2>
+          <h2 className="font-serif text-3xl md:text-5xl text-wine-deep leading-tight">Contato</h2>
           <p className="mt-5 text-foreground/70">
             Dados profissionais para contato com a Dra. Rafaella Borges.
           </p>
@@ -42,9 +43,7 @@ export function Contact() {
           />
           <div className="relative">
             <div className="text-center mb-8">
-              <div className="font-serif text-2xl md:text-3xl text-wine-deep">
-                {SITE.name}
-              </div>
+              <div className="font-serif text-2xl md:text-3xl text-wine-deep">{SITE.name}</div>
               <div className="text-[11px] uppercase tracking-[0.25em] text-foreground/55 mt-2">
                 {SITE.oab}
               </div>
@@ -68,9 +67,7 @@ export function Contact() {
                     <div className="text-[10px] uppercase tracking-[0.22em] text-foreground/55 mb-0.5">
                       {it.label}
                     </div>
-                    <div className="text-sm text-wine-deep font-medium break-words">
-                      {it.value}
-                    </div>
+                    <div className="text-sm text-wine-deep font-medium break-words">{it.value}</div>
                   </div>
                 </a>
               ))}

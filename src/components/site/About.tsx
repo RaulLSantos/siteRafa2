@@ -34,15 +34,14 @@ export function About() {
           <div className="hairline-gold my-8 max-w-xs" />
 
           <p className="text-foreground/80 leading-relaxed text-[15px] md:text-base">
-            A Dra. Rafaella Borges atua com foco em Direito Trabalhista
-            Empresarial, oferecendo suporte jurídico para empresas que buscam
-            conduzir suas relações de trabalho com maior segurança, organização
-            e responsabilidade técnica.
+            A Dra. Rafaella Borges atua com foco em Direito Trabalhista Empresarial, oferecendo
+            suporte jurídico para empresas que buscam conduzir suas relações de trabalho com maior
+            segurança, organização e responsabilidade técnica.
           </p>
           <p className="mt-5 text-foreground/75 leading-relaxed text-[15px] md:text-base">
-            Sua atuação é pautada pela análise individualizada de cada demanda,
-            clareza na comunicação e compromisso com uma condução jurídica
-            estratégica, tanto na esfera consultiva quanto contenciosa.
+            Sua atuação é pautada pela análise individualizada de cada demanda, clareza na
+            comunicação e compromisso com uma condução jurídica estratégica, tanto na esfera
+            consultiva quanto contenciosa.
           </p>
 
           <p className="mt-8 text-xs uppercase tracking-[0.22em] text-foreground/50">
@@ -63,9 +62,7 @@ export function About() {
                 <div className="text-[10px] uppercase tracking-[0.22em] text-foreground/55 mb-1.5">
                   {b.label}
                 </div>
-                <div className="font-serif text-lg text-wine-deep leading-snug">
-                  {b.value}
-                </div>
+                <div className="font-serif text-lg text-wine-deep leading-snug">{b.value}</div>
               </div>
             ))}
           </div>
@@ -75,8 +72,8 @@ export function About() {
               Compromisso
             </div>
             <p className="font-serif text-lg text-wine-deep leading-snug">
-              “Atuação técnica, discreta e orientada à segurança jurídica das
-              decisões empresariais.”
+              “Atuação técnica, discreta e orientada à segurança jurídica das decisões
+              empresariais.”
             </p>
           </div>
         </div>

@@ -7,9 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <div className="font-serif text-2xl text-primary-foreground">
-              {SITE.name}
-            </div>
+            <div className="font-serif text-2xl text-primary-foreground">{SITE.name}</div>
             <div className="text-[11px] uppercase tracking-[0.25em] text-gold-soft mt-2">
               {SITE.oab}
             </div>
@@ -27,10 +25,7 @@ export function Footer() {
             </div>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a
-                  href={`mailto:${SITE.email}`}
-                  className="hover:text-gold-soft transition-colors"
-                >
+                <a href={`mailto:${SITE.email}`} className="hover:text-gold-soft transition-colors">
                   {SITE.email}
                 </a>
               </li>
@@ -97,10 +92,9 @@ export function Footer() {
         <div className="hairline-gold my-10 opacity-40" />
 
         <p className="text-[11px] leading-relaxed text-primary-foreground/55 max-w-4xl">
-          As informações disponibilizadas neste site possuem caráter
-          exclusivamente informativo, não constituem promessa de resultado e
-          não substituem a análise jurídica individualizada por profissional
-          habilitado.
+          As informações disponibilizadas neste site possuem caráter exclusivamente informativo, não
+          constituem promessa de resultado e não substituem a análise jurídica individualizada por
+          profissional habilitado.
         </p>
         <p className="mt-4 text-[11px] text-primary-foreground/40">
           © {new Date().getFullYear()} {SITE.name}. Todos os direitos reservados.

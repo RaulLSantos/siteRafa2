@@ -44,10 +44,7 @@ const cards = [
 
 export function BusinessLaborLaw() {
   return (
-    <section
-      id="trabalhista"
-      className="relative bg-wine-deep text-primary-foreground"
-    >
+    <section id="trabalhista" className="relative bg-wine-deep text-primary-foreground">
       <div
         aria-hidden
         className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -74,9 +71,8 @@ export function BusinessLaborLaw() {
             </h2>
             <div className="hairline-gold my-8 max-w-xs opacity-70" />
             <p className="text-primary-foreground/75 leading-relaxed max-w-md">
-              Suporte jurídico estratégico para empresas que buscam segurança
-              nas relações de trabalho, prevenção de passivos e condução
-              técnica de demandas trabalhistas.
+              Suporte jurídico estratégico para empresas que buscam segurança nas relações de
+              trabalho, prevenção de passivos e condução técnica de demandas trabalhistas.
             </p>
 
             <a
@@ -107,9 +103,7 @@ export function BusinessLaborLaw() {
                   <h3 className="font-serif text-xl text-primary-foreground leading-snug mb-2">
                     {c.title}
                   </h3>
-                  <p className="text-sm text-primary-foreground/70 leading-relaxed">
-                    {c.text}
-                  </p>
+                  <p className="text-sm text-primary-foreground/70 leading-relaxed">{c.text}</p>
                 </div>
               </div>
             </article>

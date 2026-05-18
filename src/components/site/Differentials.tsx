@@ -38,8 +38,8 @@ export function Differentials() {
             Uma advocacia voltada à segurança das relações de trabalho.
           </h2>
           <p className="mt-5 text-foreground/70 leading-relaxed">
-            Orientação técnica para empresas que buscam conduzir suas decisões
-            com responsabilidade e previsibilidade.
+            Orientação técnica para empresas que buscam conduzir suas decisões com responsabilidade
+            e previsibilidade.
           </p>
         </div>
 
@@ -53,12 +53,8 @@ export function Differentials() {
               <div className="mb-6 inline-flex h-11 w-11 items-center justify-center rounded-sm bg-cream border border-border text-wine-deep">
                 <it.icon size={18} strokeWidth={1.6} />
               </div>
-              <h3 className="font-serif text-lg text-wine-deep mb-2 leading-snug">
-                {it.title}
-              </h3>
-              <p className="text-sm text-foreground/70 leading-relaxed">
-                {it.text}
-              </p>
+              <h3 className="font-serif text-lg text-wine-deep mb-2 leading-snug">{it.title}</h3>
+              <p className="text-sm text-foreground/70 leading-relaxed">{it.text}</p>
             </article>
           ))}
         </div>

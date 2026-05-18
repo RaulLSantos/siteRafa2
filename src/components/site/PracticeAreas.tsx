@@ -36,8 +36,8 @@ export function PracticeAreas() {
             </h2>
           </div>
           <p className="md:max-w-sm text-foreground/70 text-sm leading-relaxed">
-            Atuação técnica orientada por análise individualizada, com foco
-            estratégico em Direito Trabalhista Empresarial.
+            Atuação técnica orientada por análise individualizada, com foco estratégico em Direito
+            Trabalhista Empresarial.
           </p>
         </div>
 
@@ -67,9 +67,7 @@ export function PracticeAreas() {
                     <h3 className="font-serif text-2xl md:text-3xl leading-tight mb-4">
                       {a.title}
                     </h3>
-                    <p className="text-primary-foreground/80 leading-relaxed max-w-xl">
-                      {a.text}
-                    </p>
+                    <p className="text-primary-foreground/80 leading-relaxed max-w-xl">{a.text}</p>
                     <a
                       href="#trabalhista"
                       className="mt-8 inline-flex items-center gap-2 text-sm tracking-wide text-gold-soft hover:text-gold transition-colors"
@@ -89,12 +87,8 @@ export function PracticeAreas() {
                 <div className="inline-flex h-11 w-11 items-center justify-center rounded-sm bg-cream border border-border text-wine-deep mb-6">
                   <Icon size={18} strokeWidth={1.6} />
                 </div>
-                <h3 className="font-serif text-xl text-wine-deep mb-3 leading-tight">
-                  {a.title}
-                </h3>
-                <p className="text-sm text-foreground/70 leading-relaxed">
-                  {a.text}
-                </p>
+                <h3 className="font-serif text-xl text-wine-deep mb-3 leading-tight">{a.title}</h3>
+                <p className="text-sm text-foreground/70 leading-relaxed">{a.text}</p>
               </article>
             );
           })}

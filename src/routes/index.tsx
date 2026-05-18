@@ -16,8 +16,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title:
-          "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
+        title: "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
       },
       {
         name: "description",
@@ -31,8 +30,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content:
-          "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
+        content: "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
       },
       {
         property: "og:description",
@@ -45,13 +43,11 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "twitter:title",
-        content:
-          "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
+        content: "Dra. Rafaella Borges | Advocacia Trabalhista Empresarial em Cascavel/PR",
       },
       {
         name: "twitter:description",
-        content:
-          "Atuação jurídica estratégica para empresas em Direito Trabalhista Empresarial.",
+        content: "Atuação jurídica estratégica para empresas em Direito Trabalhista Empresarial.",
       },
     ],
     links: [{ rel: "canonical", href: "/" }],

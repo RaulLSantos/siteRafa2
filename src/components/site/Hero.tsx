@@ -35,9 +35,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-7 max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">
-            Atuação jurídica estratégica para empresas, com foco em segurança
-            nas relações de trabalho, prevenção de riscos e suporte técnico em
-            demandas consultivas e contenciosas.
+            Atuação jurídica estratégica para empresas, com foco em segurança nas relações de
+            trabalho, prevenção de riscos e suporte técnico em demandas consultivas e contenciosas.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-6">
@@ -55,9 +54,7 @@ export function Hero() {
             </a>
 
             <div className="pl-0 sm:pl-6 sm:border-l border-border">
-              <div className="font-serif text-lg text-wine-deep">
-                {SITE.name}
-              </div>
+              <div className="font-serif text-lg text-wine-deep">{SITE.name}</div>
               <div className="text-xs tracking-[0.18em] uppercase text-foreground/55">
                 {SITE.oab}
               </div>
@@ -91,9 +88,7 @@ export function Hero() {
                   <div className="text-[11px] uppercase tracking-[0.2em] text-foreground/60">
                     Prevenção
                   </div>
-                  <div className="font-serif text-sm text-wine-deep">
-                    Segurança jurídica
-                  </div>
+                  <div className="font-serif text-sm text-wine-deep">Segurança jurídica</div>
                 </div>
               </div>
             </div>
@@ -107,9 +102,7 @@ export function Hero() {
                   <div className="text-[11px] uppercase tracking-[0.2em] text-foreground/60">
                     Atuação
                   </div>
-                  <div className="font-serif text-sm text-wine-deep">
-                    Consultiva & Contenciosa
-                  </div>
+                  <div className="font-serif text-sm text-wine-deep">Consultiva & Contenciosa</div>
                 </div>
               </div>
             </div>
